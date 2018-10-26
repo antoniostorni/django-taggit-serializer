@@ -37,7 +37,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        'django-taggit',
+        'django-taggit>=0.22.2,<0.23',
     ],
     license="BSD",
     zip_safe=False,
